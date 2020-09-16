@@ -5,6 +5,9 @@ with open("README.md", "r") as fr:
 
 setup(
     name = 'paraphraser',
+    url = 'https://github.com/17shashank17/Paraphraser',
+    author = 'Shashank Jaiswal',
+    author_email = "17shashank17@gmail.com",
     version = '0.0.1',
     description = "A python module which returns list of sentences with same contextual meaning as given sentence",
     py_modules = ["paraphraser"],
